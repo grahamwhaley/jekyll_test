@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Jekyll Test
+
+A place to experiment with Jekyll and github Pages.
 
 You can use the [editor on GitHub](https://github.com/grahamwhaley/jekyll_test/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
