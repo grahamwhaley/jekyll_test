@@ -63,10 +63,8 @@ Did it work??
 And let's try to embed our blog....
 
 {% for post in paginator.posts %}
-  <div class="postWrapper">
-    <h2><a href="{{ post.url | remove_first:'/'}}">{{ post.title }}</a></h2>  
-    <div class="postDate">{{ post.date | date:"%B %d, %Y" }}</div>
-    <div class="postContent">{{ post.content }}</div>
-  </div>
+    {{ post.url | remove_first:'/'}}">{{ post.title }}
+    {{ post.date | date:"%B %d, %Y" }}
+    {{ post.content }}
 {% endfor %}
 
