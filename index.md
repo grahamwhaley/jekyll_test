@@ -56,6 +56,12 @@ Can we get the blog to appear??
 {{ post.url }}>{{ post.title }}
 {% endfor %}
 
+## Four
+{% for post in site.posts %}
+<li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+
 Did it work??
 
 # embed blogs?
