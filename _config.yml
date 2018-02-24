@@ -1,3 +1,4 @@
 theme: jekyll-theme-merlot
 baseurl: /jekyll_test
 future: true
+paginate: 5
