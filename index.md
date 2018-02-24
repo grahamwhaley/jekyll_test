@@ -41,8 +41,19 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 # Blog
 Can we get the blog to appear??
 
+## One
 {% for post in site.posts %}
 {{ post.date | date_to_string }} » {{ post.title }}
+{% endfor %}
+
+## Two
+{% for post in site.posts %}
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+## Three
+{% for post in site.posts %}
+{{ post.url }}>{{ post.title }}
 {% endfor %}
 
 Did it work??
