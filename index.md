@@ -69,7 +69,7 @@ Did it work??
 And let's try to embed our blog....
 
 <ul>
-{% for post in paginator.posts %}
+{% for post in site.posts %}
     <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
     {{ post.date | date:"%B %d, %Y" }}
     {{ post.content }}
